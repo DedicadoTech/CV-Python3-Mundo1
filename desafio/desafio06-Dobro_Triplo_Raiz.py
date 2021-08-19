@@ -9,4 +9,4 @@ print("O dobro de {} vale {}.\n"
       "O triplo de {} vale {}.\n"
       "A raiz quadrada de {} é igual a {}".format(num,num*2,
                                                   num,num*3,
-                                                  num,float(num) ** 0.5))
+                                                  num,float(num) ** 0.5))#converte int em float
