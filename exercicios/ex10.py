@@ -5,7 +5,7 @@
 carteira = float(input('Digite o valor que você tem na carteira:\n R$ '))
 dolar = carteira / 5.29
 #troca ponto por virgula
-#converte para float para string
+#converte de float para string
 carteira = str(carteira).replace('.',',')
 
 print('Valor em Dolar US$ {:.2f}\nValor em Reais R$ {}'.format(dolar, carteira))
